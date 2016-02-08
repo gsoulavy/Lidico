@@ -50,8 +50,12 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="TestObjects\Customer.cs" />
+    <Compile Include="TestObjects\IDebitCard.cs" />
+    <Compile Include="ContainerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestObjects\Master.cs" />
+    <Compile Include="TestObjects\Visa.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Lidico\Lidico.csproj">
