@@ -51,5 +51,10 @@ namespace Lidico
                 _dependencyMap.Add(typeof(T1), typeof(T2));
             }
         }
+
+        public void Release()
+        {
+            _dependencyMap.Clear();
+        }
     }
 }

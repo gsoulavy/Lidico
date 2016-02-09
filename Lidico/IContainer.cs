@@ -9,5 +9,7 @@ namespace Lidico
         object Resolve(Type typeToResolve);
 
         void Register<T1, T2>();
+
+        void Release();
     }
 }
